@@ -58,8 +58,12 @@ console.log(Number.parseFloat(entrada));
 
 
 //Cojuntos - Set
+class Amigos {}
 let amigos = new Set()
 
+const ana = new Amigos()
+const juan = new Amigos()
+const draco = new Amigos()
 amigos.add('Ana')
 amigos.add('Juan')
 amigos.add('Conde Draco')
@@ -81,3 +85,9 @@ amigos.push(draco)
 for (let i = 0; i < amigos.length; i++) {
   console.log(amigos[i]);
 }
+
+//Mapas
+let coches = Map()
+
+coches.set('BA-9282-ZT', 'Porsche')
+coches.set('TO-666-JO', 'Seat Ibiza')
