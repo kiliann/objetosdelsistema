@@ -16,7 +16,7 @@ export class Arma {
   }
   static getNumArma(){
     console.log(`Hay ${Arma.numArmas} armas ahora.`);
-    document.write(`Hay ${Arma.numArmas} armas ahora.`)
+    document.write(-`Hay ${Arma.numArmas} armas ahora.`)
   }
 }
 Arma.numArmas = 0;
